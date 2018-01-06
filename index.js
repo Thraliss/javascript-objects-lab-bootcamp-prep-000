@@ -13,6 +13,8 @@ function deleteFromObjectByKey(object, key){
   var newObj = new Object();
   newObj = Object.assign(object);
   delete newObj[key];
+  console.log(newObj);
+  console.log(object);
   return newObj;
 }
 
